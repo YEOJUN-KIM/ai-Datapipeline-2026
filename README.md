@@ -47,11 +47,27 @@
 #### NumPy
 
 - 파이썬에서 숫자 데이터를 빠르게 처리하기 위한 대표적인 라이브러리(패키지). Pandas, Selenium 등으로 연결
-- [보기](./chapt01/넘파이기초.ipynb)
+- [NumPy기초](./chapt01/넘파이기초.ipynb)
 
 #### Pandas
 
 - 표 형태의 데이터를 손쉽게 다루기 위한 파이썬 라이브러리(패키지)
 - NumPy가 숫자 배열을 처리, Pandas는 행과 열로 실제 데이터셋 읽고, DB처럼 선택, 요약, 수정하는 도구
-- `Pandas기초` [보기](./chapt01/판다스기초.ipynb)
-- `Pandas 데이터 연동` [보기](./chapt02/판다스_데이터_연동.ipynb) 
+- [Pandas기초](./chapt01/판다스기초.ipynb)
+- [Pandas 데이터 연동](./chapt02/Pandas_데이터연동.ipynb) 
+- [Pandas 데이터 처리](./chapt02/Pandas_데이터처리.ipynb) 
+- [Pandas 데이터 집계](./chapt02/Pandas_데이터집계.ipynb) 
+
+#### Visualization Maplotlib
+- Pandas, NumPy로 정제한 데이터를 시각화하는 라이브러리(패키지)
+- EDA(Exploratory Data Analysis) : 탐색적 데이터 분석 시 사용
+    - 항목별 크기 비교 : 막대 그래프
+    - 시간에 따른 변화 : 선 그래프
+    - 숫자 데이터 분포 : 히스토그램
+    - 두 숫자 데이터 관계 : 산점도
+    - 이상치 확인 : 박스플롯
+- [시각화기초](./chapt03/시각화기초.ipynb) 
+
+#### Selenium
+- 웹 페이지에서 필요한 데이터를 수집해오는 자동화 라이브러리(패키지)
+- 데이터 수집방법: OpenAPI 사용, 
